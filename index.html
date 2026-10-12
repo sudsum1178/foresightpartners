@@ -3,16 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Foresight Partners</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;padding:1rem;background:#f9fafb;color:#111}
-    .container{max-width:980px;margin:0 auto}
-  </style>
+  <title>Foresight Partners | AI Infrastructure Investing, GPU Leasing and Advisory</title>
+  <meta name="description" content="Foresight Partners invests in AI infrastructure and provides GPU leasing, GPU rental, AI technology advisory and cloud operations." />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header><h1>Foresight Partners</h1></header>
-    <p>Coming soon.</p>
-  </div>
+  <nav class="nav">
+    <div class="container">
+      <a href="#top" class="logo">Foresight<span>Partners</span></a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="container">
+      <div class="eyebrow">AI Infrastructure</div>
+      <h1>Powering the compute behind AI.</h1>
+      <p>We invest in AI infrastructure and provide GPU capacity, advisory and cloud operations for teams building what comes next.</p>
+      <div class="actions">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="#services">Our services</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p class="lead">Foresight Partners sits at the intersection of capital, compute and operations. We back and operate the infrastructure that AI workloads depend on, and we help organizations make sound technology decisions.</p>
+    </div>
+  </section>
+
+  <section id="services" class="alt">
+    <div class="container">
+      <h2>What we do</h2>
+      <p class="lead">Five focused capabilities across the AI infrastructure stack.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="icon">📈</div>
+          <h3>AI Infrastructure Investing</h3>
+          <p>Capital deployed into data center, compute and supporting infrastructure assets.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🖥️</div>
+          <h3>GPU Leasing</h3>
+          <p>Long-term GPU capacity on flexible terms for sustained training and inference needs.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚡</div>
+          <h3>GPU Rental</h3>
+          <p>Short-term, on-demand access to GPUs for experiments, bursts and project work.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧭</div>
+          <h3>AI Tech Advisory</h3>
+          <p>Architecture, vendor and build-versus-buy guidance from people who run the hardware.</p>
+        </article>
+        <article class="card">
+          <div class="icon">☁️</div>
+          <h3>Cloud Operations</h3>
+          <p>Deployment, monitoring and day-to-day operation of AI and cloud environments.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's talk</h2>
+      <p class="lead">Tell us about your compute needs or investment interests.</p>
+      <a class="btn primary" href="mailto:info@foresightpartners.ai">info@foresightpartners.ai</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>&copy; <span id="year"></span> Foresight Partners. All rights reserved.</span>
+      <span>foresightpartners.ai</span>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
