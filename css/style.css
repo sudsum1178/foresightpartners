@@ -46,7 +46,8 @@ h2{font-size:clamp(1.8rem,4vw,2.4rem);margin:0 0 .75rem}
 .page-hero{padding:5rem 0 4rem}
 .team-grid{grid-template-columns:repeat(auto-fit,minmax(260px,320px))}
 .person{text-align:center}
-.avatar{width:84px;height:84px;margin:0 auto 1rem;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:1.4rem;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.avatar{position:relative;overflow:hidden;width:84px;height:84px;margin:0 auto 1rem;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:1.4rem;background:linear-gradient(135deg,var(--accent),var(--accent2))}
+.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .role{color:var(--accent);font-size:.9rem;margin-bottom:.75rem}
 .link{color:var(--accent);font-weight:600;font-size:.95rem}
 .person .link{display:inline-block;margin-top:1rem}
